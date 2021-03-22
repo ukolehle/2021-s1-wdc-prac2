@@ -5,6 +5,9 @@ h2 {
     text-align: left;
     font-family: sans-serif;
 }
+h3 {
+    color: rgb(0,0, 255, 0.8);
+}
 p {
     font-family: serif;
 }
@@ -12,7 +15,7 @@ a {
     font-family: sans-serif;
     color: darkgreen;
 }
-s {
+del {
     color: grey;
 }
 mark {
@@ -21,4 +24,8 @@ mark {
 }
 pre {
     font-family: monospace;
+}
+pre.transparent-text {
+    font-family: monospace;
+    color: rgb(180, 180, 180, 0.5);
 }
